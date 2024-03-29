@@ -50,7 +50,7 @@ For the cleaned dataset, please download it from [here]
 ## Contributors
 
 1. Justin
-2. @zhihaolaw
+2. @zhihaolaw (Data Preperation & Cleaning)
 3. Rahul
 
 ## References
