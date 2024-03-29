@@ -49,12 +49,14 @@ For the cleaned dataset, please download it from [here]
 
 ## Contributors
 
-1. 
-2. 
-3. 
+1. Justin
+2. @zhihaolaw
+3. Rahul
 
 ## References
-
-
-## Source
+https://machinelearningmastery.com/visualize-gradient-boosting-decision-trees-xgboost-python/
+https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html
+https://neuraldatascience.io/5-eda/data_cleaning.html
 https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who/data
+
+
