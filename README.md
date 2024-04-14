@@ -30,17 +30,16 @@ For the cleaned dataset, please download it from [here]
 
 ## Brief process walkthrough (In order)
 
-1. [Data Preparation & Cleaning]
-   rename columns of dataframe
-   KNNImputer for replace null value value
-   replace oulier with mean value
+**[Data Preparation & Cleaning]**
+   1. rename columns of dataframe
+   2. KNNImputer for replace null value value
+   3. replace oulier with mean value
 
-2. [Exploratory Data Analysis]
-   bi-variante analysis and visualization
-   uni-variante analysis and visualization
+**[Exploratory Data Analysis]**
+   1. bi-variante analysis and visualization
+   2. uni-variante analysis and visualization
    
-
-4. Machine Learning Model
+**[Machine Learning Model]**
 
 
 
@@ -58,9 +57,9 @@ For the cleaned dataset, please download it from [here]
 3. Rahul
 
 ## References
-https://machinelearningmastery.com/visualize-gradient-boosting-decision-trees-xgboost-python/
-https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html
-https://neuraldatascience.io/5-eda/data_cleaning.html
-https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who/data
+1. https://machinelearningmastery.com/visualize-gradient-boosting-decision-trees-xgboost-python/
+2. https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html
+3. https://neuraldatascience.io/5-eda/data_cleaning.html
+4. https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who/data
 
 
