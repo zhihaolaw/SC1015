@@ -31,12 +31,16 @@ For the cleaned dataset, please download it from [here]
 ## Brief process walkthrough (In order)
 
 1. [Data Preparation & Cleaning]
-
+   rename columns of dataframe
+   KNNImputer for replace null value value
+   replace oulier with mean value
 
 2. [Exploratory Data Analysis]
+   bi-variante analysis and visualization
+   uni-variante analysis and visualization
    
 
-3. Machine Learning Model
+4. Machine Learning Model
 
 
 
