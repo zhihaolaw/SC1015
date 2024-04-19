@@ -40,8 +40,11 @@ Link to the presentation video from [here]()
    2. uni-variante analysis and visualization
    
 **[Machine Learning Model]**
-   1. Decision Trees - Justin
-   2. Linear Regression, Support Vector Regression, Random Forest Regression, K-Means Clustering - Rahul
+   1. Decision Trees
+   2. Linear Regression
+   3. Support Vector Regression
+   4. Random Forest Regression
+   5. K-Means Clustering 
 
 
 ## Conclusion
