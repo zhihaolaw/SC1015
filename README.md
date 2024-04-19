@@ -3,10 +3,10 @@
 ## About  Life_Expectancy Dataset
 
 ## Context
-Although there have been lot of studies undertaken in the past on factors affecting life expectancy considering demographic variables, income composition and mortality rates. It was found that affect of immunization and human development index was not taken into account in the past. Also, some of the past research was done considering multiple linear regression based on data set of one year for all the countries. Hence, this gives motivation to resolve both the factors stated previously by formulating a regression model based on mixed effects model and multiple linear regression while considering data from a period of 2000 to 2015 for all the countries. Important immunization like Hepatitis B, Polio and Diphtheria will also be considered. In a nutshell, this study will focus on immunization factors, mortality factors, economic factors, social factors and other health related factors as well. Since the observations this dataset are based on different countries, it will be easier for a country to determine the predicting factor which is contributing to lower value of life expectancy. This will help in suggesting a country which area should be given importance in order to efficiently improve the life expectancy of its population.
+Although there have been lot of studies undertaken in the past on factors affecting life expectancy considering demographic variables, income composition and mortality rates.  In a nutshell, this study will focus on immunization factors, mortality factors, economic factors, social factors and other health related factors as well. Since the observations this dataset are based on different countries, it will be easier for a country to determine the predicting factor which is contributing to lower value of life expectancy. This will help in suggesting a country which area should be given importance in order to efficiently improve the life expectancy of its population.
 
 ## Content
-The project relies on accuracy of data. The Global Health Observatory (GHO) data repository under World Health Organization (WHO) keeps track of the health status as well as many other related factors for all countries The data-sets are made available to public for the purpose of health data analysis. The data-set related to life expectancy, health factors for 193 countries has been collected from the same WHO data repository website and its corresponding economic data was collected from United Nation website. Among all categories of health-related factors only those critical factors were chosen which are more representative. It has been observed that in the past 15 years , there has been a huge development in health sector resulting in improvement of human mortality rates especially in the developing nations in comparison to the past 30 years. Therefore, in this project we have considered data from year 2000-2015 for 193 countries for further analysis. The individual data files have been merged together into a single data-set. On initial visual inspection of the data showed some missing values. As the data-sets were from WHO, we found no evident errors. Missing data was handled in R software by using Missmap command. The result indicated that most of the missing data was for population, Hepatitis B and GDP. The missing data were from less known countries like Vanuatu, Tonga, Togo, Cabo Verde etc. Finding all data for these countries was difficult and hence, it was decided that we exclude these countries from the final model data-set. The final merged file(final dataset) consists of 22 Columns and 2938 rows which meant 20 predicting variables. All predicting variables was then divided into several broad categories:​Immunization related factors, Mortality factors, Economical factors and Social factors.
+The project relies on accuracy of data. The Global Health Observatory (GHO) data repository under World Health Organization (WHO) keeps track of the health status as well as many other related factors for all countries The data-sets are made available to public for the purpose of health data analysis. The data-set related to life expectancy, health factors for 193 countries has been collected from the same WHO data repository website and its corresponding economic data was collected from United Nation website. Among all categories of health-related factors only those critical factors were chosen which are more representative. It has been observed that in the past 15 years , there has been a huge development in health sector resulting in improvement of human mortality rates especially in the developing nations in comparison to the past 30 years. All predicting variables was then divided into several broad categories:​Immunization related factors, Mortality factors, Economical factors and Social factors.
 
 ## Acknowledgements
 The data was collected from WHO and United Nations website with the help of Deeksha Russell and Duan Wang.
@@ -41,17 +41,22 @@ Link to the presentation video from [here]()
    2. uni-variante analysis and visualization
    
 **[Machine Learning Model]**
-   1. Decision Trees ['INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', 'ADULT_MORTALITY'] 
-   2. Linear Regression ['INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', 'ADULT_MORTALITY']
-   3. Support Vector Regression ['INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', 'ADULT_MORTALITY']
-   4. Random Forest Regression ['INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', 'ADULT_MORTALITY']
-   5. K-Means Clustering ['GDP', 'ADULT_MORTALITY', 'INFANT_DEATHS', 'ALCOHOL', 'MEASLES_', 'PERCENTAGE_EXPENDITURE', 'POLIO', 'DIPHTHERIA_', '_HIV/AIDS', 'POPULATION', 'INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', '_THINNESS__1_19_YEARS', '_THINNESS_5_9_YEARS']
+   1. Linear Regression
+   2. Support Vector Regression
+   3. Random Forest Regression
+   4. K-Means Clustering
+   5. Decision Trees
+
+The code in the python notebook is used for regression analysis to predict life expectancy using the 3 different predictor variables. This includes, Linear Regression, SVR, Random Forest Regression. Each Model's performance is judged based on the metrics like Explained Variance (R^2) and Mean Squared Error (MSE) on both training and testing datasets.
 
 
 ## Conclusion
-In conclusion, income was the best variable in predicting the life expectancy of a person. Similarly to the global trends, people who live in countries with a higher GDP per capita often have a higher average lifespan. This highlights how important it is for our economy to remain vibrant and inclusive as it directly impacts the health and longevity of our population.
-The schooling variable demonstrated how access to quality education can positively impact a person’s life expectancy as well. Education not only enhances individual health literacy but also fosters healthier lifestyle choices, contributing significantly to overall well-being and longevity. Adult mortality is dependent on factors like healthcare accessibility, disease prevalence, and lifestyle factors which can contribute to premature deaths among adults. Prioritizing initiatives aimed at reducing adult mortality rates not only enhances overall population health but also extends life expectancy, thereby fostering healthier and more resilient communities.
-In conclusion, our investigation reaffirms the critical importance of socioeconomic factors, particularly income, education, and adult mortality, in predicting life expectancy. By acknowledging and addressing these determinants, we can work towards fostering healthier societies and extending life expectancy for all.
+1. Income was the best variable in predicting the life expectancy of a person. 
+2. People who live in countries with a higher GDP per capita often have a higher average lifespan
+3. Important for our economy to remain vibrant and inclusive as it directly impacts the health and longevity of our population
+4. Schooling translates into access to quality education
+5. Education not only enhances individual health literacy but also fosters healthier lifestyle choices
+6. Adult mortality is dependent on factors like healthcare accessibility, disease prevalence, and lifestyle factors
 
 ## Key learning points
 1. Concepts about KNNInputer, KBest Feature
