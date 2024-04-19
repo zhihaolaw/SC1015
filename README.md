@@ -1,4 +1,4 @@
-# SC1015 Life_Expectancy_prediction
+# SC1015 Life_Expectancy_Prediction
 
 ## About  Life_Expectancy Dataset
 
