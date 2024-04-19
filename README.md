@@ -41,11 +41,11 @@ Link to the presentation video from [here]()
    2. uni-variante analysis and visualization
    
 **[Machine Learning Model]**
-   1. Decision Trees
-   2. Linear Regression
-   3. Support Vector Regression
-   4. Random Forest Regression
-   5. K-Means Clustering 
+   1. Decision Trees ['INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', 'ADULT_MORTALITY'] 
+   2. Linear Regression ['INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', 'ADULT_MORTALITY']
+   3. Support Vector Regression ['INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', 'ADULT_MORTALITY']
+   4. Random Forest Regression ['INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', 'ADULT_MORTALITY']
+   5. K-Means Clustering ['GDP', 'ADULT_MORTALITY', 'INFANT_DEATHS', 'ALCOHOL', 'MEASLES_', 'PERCENTAGE_EXPENDITURE', 'POLIO', 'DIPHTHERIA_', '_HIV/AIDS', 'POPULATION', 'INCOME_COMPOSITION_OF_RESOURCES', 'SCHOOLING', '_THINNESS__1_19_YEARS', '_THINNESS_5_9_YEARS']
 
 
 ## Conclusion
