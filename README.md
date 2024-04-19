@@ -49,7 +49,9 @@ Link to the presentation video from [here]()
 
 
 ## Conclusion
-
+In conclusion, income was the best variable in predicting the life expectancy of a person. Similarly to the global trends, people who live in countries with a higher GDP per capita often have a higher average lifespan. This highlights how important it is for our economy to remain vibrant and inclusive as it directly impacts the health and longevity of our population.
+The schooling variable demonstrated how access to quality education can positively impact a person’s life expectancy as well. Education not only enhances individual health literacy but also fosters healthier lifestyle choices, contributing significantly to overall well-being and longevity. Adult mortality is dependent on factors like healthcare accessibility, disease prevalence, and lifestyle factors which can contribute to premature deaths among adults. Prioritizing initiatives aimed at reducing adult mortality rates not only enhances overall population health but also extends life expectancy, thereby fostering healthier and more resilient communities.
+In conclusion, our investigation reaffirms the critical importance of socioeconomic factors, particularly income, education, and adult mortality, in predicting life expectancy. By acknowledging and addressing these determinants, we can work towards fostering healthier societies and extending life expectancy for all.
 
 ## Key learning points
 1. Concepts about KNNInputer, KBest Feature
