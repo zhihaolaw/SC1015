@@ -26,7 +26,7 @@ For the cleaned dataset, please download it from [here](https://github.com/zhiha
 For the EDA python notebook, please view at [here](https://github.com/zhihaolaw/SC1015/blob/main/SC1015_mini_project_EDA_cleaned_data.ipynb)
 
 ## Presentation
-Link to the presentation video from the submiision.
+Link to the presentation video from the submission.
 
 ## Brief process walkthrough
 
