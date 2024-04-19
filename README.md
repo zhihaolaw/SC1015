@@ -21,7 +21,7 @@ Singapore ranks as 6th blue zone having one of the highest longevigity age, henc
 ## Dataset used
 The dataset used for this project is retrieved from [here](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who/data)
 
-For the cleaned dataset, please download it from [here]
+For the cleaned dataset, please download it from [here](https://github.com/zhihaolaw/SC1015/blob/main/cleaned_life_expectancy_data.csv)
 
 ## Presentation
 
