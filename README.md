@@ -23,6 +23,7 @@ Singapore ranks as 6th blue zone having one of the highest longevigity age, henc
 The dataset used for this project is retrieved from [here](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who/data)
 
 For the cleaned dataset, please download it from [here](https://github.com/zhihaolaw/SC1015/blob/main/cleaned_life_expectancy_data.csv)
+For the EDA python notebook, please view at [here](https://github.com/zhihaolaw/SC1015/blob/main/SC1015_mini_project_EDA_cleaned_data.ipynb)
 
 ## Presentation
 Link to the presentation video from [here]()
@@ -30,15 +31,15 @@ Link to the presentation video from [here]()
 ## Brief process walkthrough
 
 **[Data Preparation & Cleaning]**
-   1. rename columns of dataframe
-   2. data extraction
-   3. KNNImputer for replace null value value
+   1. Rename columns of dataframe
+   2. Data Extraction
+   3. KNNImputer for replace null value
    4. SelectKbest
-   5. replace oulier with mean value
+   5. Replace oulier with mean value
 
 **[Exploratory Data Analysis]**
-   1. bi-variante analysis and visualization
-   2. uni-variante analysis and visualization
+   1. Bi-variante Analysis and Visualization
+   2. Uni-variante Analysis and Visualization
    
 **[Machine Learning Model]**
    1. Linear Regression
@@ -47,7 +48,9 @@ Link to the presentation video from [here]()
    4. K-Means Clustering
    5. Decision Trees
 
-The code in the python notebook is used for regression analysis to predict life expectancy using the 3 different predictor variables. This includes, Linear Regression, SVR, Random Forest Regression. Each Model's performance is judged based on the metrics like Explained Variance (R^2) and Mean Squared Error (MSE) on both training and testing datasets.
+The code in the python notebook is used for Regression Analysis to predict Life Expectancy using the 3 different predictor variables. This includes, Linear Regression, SVR, Random Forest Regression. Each Model's performance is judged based on the metrics like Explained Variance (R^2) and Mean Squared Error (MSE) on both training and testing datasets.
+The code in the python notebook, we used K-means clustering to group countries based on the factors, determining the amount of clusters with the Elbow Method. In addition to that, we used Principal Component Analysis (PCA)  to visualise the data so that we can inspect how well the countries are separated based on the factors.
+The Decision Tree classification was first used to compare the importance of the 3 different predictor variables which are Income, Schooling and Adult Mortality and classify our data according to them. The classification trees were  also modelled after each variable separately, and their performance is judged based on the metrics like accuracy, True Positive Rate (TPR) and False Positive Rate (FPR) on both training and testing datasets.
 
 
 ## Conclusion
