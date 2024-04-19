@@ -13,7 +13,7 @@ The data was collected from WHO and United Nations website with the help of Deek
 
 ## About
 This is the mini project for NTU-SC1015 (Introduction to Data Science and Artificial Intelligence).
-Singapore ranks as 6th blue zone having one of the highest longevigity age, hence it is crucial for us to explore into factor that affect the life expectancy in the world.In this project, our group's main focus is to analyse the relationship between life expectancy and top 3 variables/factors. The approaches includes/involves both predictive modelling and clustering methods. Predictive modelling helps us predict life expectancy based on the top 3 variables we have chosen based on the correlation plot. In addition to that, clustering helps us identify groups within the expectancy data based on the various factors, helping us further understand about patterns regarding life expectancy. By combining these methods, we aim to get better understanding about the factors that affect life expectancy.
+Singapore ranks as 6th blue zone having one of the highest longevigity age, hence it is crucial for us to explore into factor that affect the life expectancy in the world. In this project, our group's main focus is to analyse the relationship between life expectancy and top 3 variables/factors. The approaches includes/involves both predictive modelling and clustering methods. Predictive modelling helps us predict life expectancy based on the top 3 variables we have chosen based on the correlation plot. In addition to that, clustering helps us identify groups within the expectancy data based on the various factors, helping us further understand about patterns regarding life expectancy. By combining these methods, we aim to get better understanding about the factors that affect life expectancy.
 
 ## Problem definition
 1. Which of the variables is the best in terms of predicting life expectancy?
@@ -25,14 +25,15 @@ The dataset used for this project is retrieved from [here](https://www.kaggle.co
 For the cleaned dataset, please download it from [here](https://github.com/zhihaolaw/SC1015/blob/main/cleaned_life_expectancy_data.csv)
 
 ## Presentation
-
+Link to the presentation video from [here]()
 
 ## Brief process walkthrough
 
 **[Data Preparation & Cleaning]** - Zhi Hao
    1. rename columns of dataframe
-   2. KNNImputer for replace null value value
-   3. replace oulier with mean value
+   2. data extraction - Justin
+   3. KNNImputer for replace null value value
+   4. replace oulier with mean value
 
 **[Exploratory Data Analysis]** - Zhi Hao
    1. bi-variante analysis and visualization
