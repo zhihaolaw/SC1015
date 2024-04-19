@@ -12,10 +12,8 @@ The project relies on accuracy of data. The Global Health Observatory (GHO) data
 The data was collected from WHO and United Nations website with the help of Deeksha Russell and Duan Wang.
 
 ## About
-
 This is the mini project for NTU-SC1015 (Introduction to Data Science and Artificial Intelligence).
-
-
+Singapore ranks as 6th blue zone having one of the highest longevigity age, hence it is crucial for us to explore into factor that affect the life expectancy in the world.
 
 ## Problem definition
 
@@ -40,25 +38,24 @@ For the cleaned dataset, please download it from [here]
    2. uni-variante analysis and visualization
    
 **[Machine Learning Model]**
-Data Extraction, Decision Trees - Justin
-Linear Regression, Support Vector Regression, Random Forest Regression, K-Means Clustering - Rahul
+   1. Data Extraction, Decision Trees - Justin
+   2. Linear Regression, Support Vector Regression, Random Forest Regression, K-Means Clustering - Rahul
 
 
 ## Conclusion
 
 
 ## Key learning points
-Concepts about KNNInputer, KBest Feature
-Concepts about Support Vector Regression
-Concepts about Random Forest Regression
-Concepts about K-Means Clustering
-Collaborating using Github
+1. Concepts about KNNInputer, KBest Feature
+2. Concepts about Support Vector Regression
+3. Concepts about Random Forest Regression
+4. Concepts about K-Means Clustering
+5. Collaborating using Github
 
 ## Contributors
-
-1. Justin
+1. Justin (Data Extraction, Decision Trees)
 2. @zhihaolaw (Data Preperation & Cleaning, Exploratory Data Analysis)
-3. Rahul
+3. Rahul (Linear Regression, Support Vector Regression, Random Forest Regression, K-Means Clustering)
 
 ## References
 1. https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html
