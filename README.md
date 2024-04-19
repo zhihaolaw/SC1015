@@ -48,9 +48,9 @@ Link to the presentation video from [here]()
    4. K-Means Clustering
    5. Decision Trees
 
-The code in the python notebook is used for Regression Analysis to predict Life Expectancy using the 3 different predictor variables. This includes, Linear Regression, SVR, Random Forest Regression. Each Model's performance is judged based on the metrics like Explained Variance (R^2) and Mean Squared Error (MSE) on both training and testing datasets.
-The code in the python notebook, we used K-means clustering to group countries based on the factors, determining the amount of clusters with the Elbow Method. In addition to that, we used Principal Component Analysis (PCA)  to visualise the data so that we can inspect how well the countries are separated based on the factors.
-The Decision Tree classification was first used to compare the importance of the 3 different predictor variables which are Income, Schooling and Adult Mortality and classify our data according to them. The classification trees were  also modelled after each variable separately, and their performance is judged based on the metrics like accuracy, True Positive Rate (TPR) and False Positive Rate (FPR) on both training and testing datasets.
+1. The code in the python notebook is used for Regression Analysis to predict Life Expectancy using the 3 different predictor variables. This includes, Linear Regression, SVR, Random Forest Regression. Each Model's performance is judged based on the metrics like Explained Variance (R^2) and Mean Squared Error (MSE) on both training and testing datasets.
+2. The code in the python notebook, we used K-means clustering to group countries based on the factors, determining the amount of clusters with the Elbow Method. In addition to that, we used Principal Component Analysis (PCA)  to visualise the data so that we can inspect how well the countries are separated based on the factors.
+3. The Decision Tree classification was first used to compare the importance of the 3 different predictor variables which are Income, Schooling and Adult Mortality and classify our data according to them. The classification trees were  also modelled after each variable separately, and their performance is judged based on the metrics like accuracy, True Positive Rate (TPR) and False Positive Rate (FPR) on both training and testing datasets.
 
 
 ## Conclusion
