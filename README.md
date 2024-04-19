@@ -29,13 +29,14 @@ Link to the presentation video from [here]()
 
 ## Brief process walkthrough
 
-**[Data Preparation & Cleaning]** - Zhi Hao
+**[Data Preparation & Cleaning]**
    1. rename columns of dataframe
-   2. data extraction - Justin
+   2. data extraction
    3. KNNImputer for replace null value value
-   4. replace oulier with mean value
+   4. SelectKbest
+   5. replace oulier with mean value
 
-**[Exploratory Data Analysis]** - Zhi Hao
+**[Exploratory Data Analysis]**
    1. bi-variante analysis and visualization
    2. uni-variante analysis and visualization
    
