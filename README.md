@@ -48,7 +48,7 @@ Link to the presentation video from the submission.
    4. K-Means Clustering
    5. Decision Trees
 
-+ The code in the python notebook is used for Regression Analysis to predict Life Expectancy using the 3 different predictor variables. This includes, Linear Regression, SVR, Random Forest Regression. Each Model's performance is judged based on the metrics like Explained Variance (R^2) and Mean Squared Error (MSE) on both training and testing datasets.
++ We did Regression Analysis to predict Life Expectancy using the 3 different predictor variables. This includes, Linear Regression, SVR, Random Forest Regression. Each Model's performance is judged based on the metrics like Explained Variance (R^2) and Mean Squared Error (MSE) on both training and testing datasets.
 
 + We used K-means clustering to group countries based on the factors, determining the amount of clusters with the Elbow Method. In addition to that, we used Principal Component Analysis (PCA) to visualise the data so that we can inspect how well the countries are separated based on the factors.
 
