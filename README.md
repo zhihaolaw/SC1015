@@ -28,38 +28,47 @@ For the cleaned dataset, please download it from [here]
 ## Presentation
 
 
-## Brief process walkthrough (In order)
+## Brief process walkthrough
 
-**[Data Preparation & Cleaning]**
+**[Data Preparation & Cleaning]** - Zhi Hao
    1. rename columns of dataframe
    2. KNNImputer for replace null value value
    3. replace oulier with mean value
 
-**[Exploratory Data Analysis]**
+**[Exploratory Data Analysis]** - Zhi Hao
    1. bi-variante analysis and visualization
    2. uni-variante analysis and visualization
    
 **[Machine Learning Model]**
-
+Data Extraction, Decision Trees - Justin
+Linear Regression, Support Vector Regression, Random Forest Regression, K-Means Clustering - Rahul
 
 
 ## Conclusion
 
 
 ## Key learning points
-
-
+Concepts about KNNInputer, KBest Feature
+Concepts about Support Vector Regression
+Concepts about Random Forest Regression
+Concepts about K-Means Clustering
+Collaborating using Github
 
 ## Contributors
 
 1. Justin
-2. @zhihaolaw (Data Preperation & Cleaning)
+2. @zhihaolaw (Data Preperation & Cleaning, Exploratory Data Analysis)
 3. Rahul
 
 ## References
-1. https://machinelearningmastery.com/visualize-gradient-boosting-decision-trees-xgboost-python/
-2. https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html
-3. https://neuraldatascience.io/5-eda/data_cleaning.html
-4. https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who/data
+1. https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html
+2. https://neuraldatascience.io/5-eda/data_cleaning.html
+3. https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who/data
+4. https://www.worldometers.info/demographics/life-expectancy/
+5. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+6. https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
+7. https://scikit-learn.org/stable/modules/clustering.html
+8. https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html
+9. https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-for-machine-learning/
 
 
